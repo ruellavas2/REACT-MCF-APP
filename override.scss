@@ -1,0 +1,257 @@
+@import '~bootstrap/scss/_functions.scss';
+@import '~bootstrap/scss/_variables.scss';
+@import '~bootstrap/scss/mixins/_breakpoints.scss';
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0px;
+}
+
+// Override ng5 slider css :: Start //
+
+.ng5-slider {
+  .ng5-slider-bubble {
+    display: none !important;
+  }
+  .ng5-slider-pointer {
+    background-color: $slider-btn !important;
+    &:after {
+      background-color: $slider-btn !important;
+    }
+    &:focus {
+      outline: none !important;
+    }
+  }
+  .ng5-slider-bar {
+    height: 8px !important;
+    bottom: 10px !important;
+    background-color: $neutrals_quaternary_color !important;
+    border-radius: 13.5px !important;
+  }
+  .ng5-slider-selection {
+    background-color: $secondary_color !important;
+    visibility: visible;
+  }
+  &.term_slider {
+    .ng5-slider-bar {
+      border-radius: 0px !important;
+    }
+    .ng5-slider-ticks {
+      display: block !important;
+      left: 9px;
+    }
+    .ng5-slider-tick {
+      width: 2px;
+      height: 10px;
+      margin-left: 4px;
+      border-radius: 0;
+      background: #fff;
+      top: -1px;
+      &:last-child,
+      &:first-child {
+        display: none !important;
+      }
+    }
+  }
+}
+
+// Override ng5 slider css :: End //
+
+.modal-content {
+  background: #ffffff;
+  box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.modal-dialog {
+  max-width: 700px;
+}
+.modal-header .close {
+  padding: 2rem 1rem;
+  margin: 0px;
+}
+.list-group-item {
+  border: none !important;
+  display: block;
+  padding: 0px !important;
+  margin-bottom: 5px !important;
+}
+
+.form-control {
+  border: 1px solid $border_color;
+  box-sizing: border-box;
+  background-color: $neutrals_septenary_color;
+  display: inline;
+  border-radius: 0px;
+}
+
+.form_control_bg_light {
+  background-color: #fff;
+}
+.alert-danger {
+  border: none;
+  background-color: transparent;
+  color: $utility_error_color;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.0216667px;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px !important;
+  font-weight: bold;
+}
+input:focus {
+  background: $neutrals_septenary_color;
+  border: 2px solid $utility_focus_color;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+input.ng-valid {
+  background: $neutrals_septenary_color;
+  border: 1px solid $neutrals_primary_colcor;
+  box-sizing: border-box;
+}
+input.ng-pristine {
+  border: 1px solid $border_color;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  border-color: $primary_color;
+  background-color: $primary_color;
+}
+
+.custom-control-label::before {
+  border-color: $primary_color;
+}
+
+ul .custom-radio {
+  margin-left: 30px;
+}
+
+//Dropzone CSS
+.dropzone {
+  mix-blend-mode: normal;
+  min-height: 309px;
+  border: 3px dashed #196b69;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.dropzone .dz-preview .dz-success-mark svg {
+  background-color: green;
+}
+
+.dropzone .dz-preview .dz-error-mark svg {
+  background-color: red;
+}
+
+/* Overriding ng5 Slider::end */
+
+.dz-preview, .dropzone .dz-preview {
+  width: 100% !important;
+  margin-top: 20px !important;
+}
+.dz-preview .dz-details {
+  opacity: 1 !important;
+}
+
+.dz-preview .dz-details {
+  margin-left: 90px !important;
+  text-align: left !important;
+}
+
+.dz-preview.dz-complete .dz-progress {
+  opacity: 1;
+}
+.dropzone.dz-started .dz-message {
+  display: block !important;
+}
+
+.dropzone .dz-preview .dz-success-mark {
+  opacity: 1;
+}
+
+.dropzone .dz-preview .dz-success-mark {
+  left: 90%;
+}
+.dropzone .dz-preview.dz-success .dz-success-mark {
+  animation: passing-through 0 cubic-bezier(0.77, 0, 0.175, 1);
+}
+.dropzone .dz-preview .dz-success-mark svg,
+.dropzone .dz-preview .dz-error-mark svg {
+  display: none;
+}
+.dropzone .dz-preview.dz-success .dz-success-mark {
+  background-image: url(/assets/icons/done.svg);
+  background-position: 100% 50%;
+  background-size: 50px;
+  width: 55px;
+  height: 55px;
+  background-repeat: no-repeat;
+  top: 70px;
+}
+
+.dropzone .dz-preview.dz-error .dz-success-mark {
+  background-image: url('/assets/icons/Cross.svg');
+  background-position: 100% 50%;
+  background-size: 50px;
+  width: 55px;
+  height: 55px;
+  background-repeat: no-repeat;
+  top: 70px;
+}
+
+.dropzone .dz-preview .dz-image {
+  width: 90px;
+  height: 90px;
+}
+.dropzone .dz-preview {
+  margin-left: 0px !important;
+}
+.dropzone .dz-preview.dz-error .dz-error-message {
+  display: block !important;
+}
+
+.dropzone .dz-preview .dz-error-message:after {
+  display: none !important;
+}
+
+.dropzone .dz-preview.dz-error .dz-error-message {
+  display: block !important;
+  width: 100% !important;
+  position: absolute !important;
+  top: 100px !important;
+  border-radius: 0px !important;
+  opacity: 1 !important;
+}
+
+.dropzone .dz-preview .dz-details {
+  min-width: 80% !important;
+  max-width: 80% !important;
+}
+
+.dropzone .dz-preview .dz-details .dz-size {
+  position: relative;
+  top: 22px;
+  font-weight: normal;
+}
+
+.dropzone .dz-preview .dz-details .dz-filename {
+  white-space: nowrap;
+  position: relative;
+  top: -35px;
+  font-weight: bold;
+}
+.table,.table td{
+  border: 1px solid #979797;
+  box-sizing: border-box;
+  vertical-align: unset;
+}

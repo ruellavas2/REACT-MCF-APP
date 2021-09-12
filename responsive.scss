@@ -1,0 +1,380 @@
+// Only Phones
+@media (max-width: 767px) {
+  #content-desktop {
+    display: none;
+  }
+  #content-desk {
+    display: none;
+  }
+  .mobileHide {
+    display: none;
+  }
+
+  .mobileShow {
+    display: block;
+  }
+
+  #content-mobile {
+    display: block;
+  }
+  #content-mobtab{
+    display: block;
+  }
+  .dd_logo{
+    margin-top: 0px;
+    text-align: center;
+}
+  .trust-p {
+    margin-left: -5px !important;
+  }
+
+ 
+
+  #mob_dd {
+    width: 100%;
+  }
+
+  
+
+  .m_bottom20_mb {
+    margin-bottom: 20px;
+  }
+
+  .m_left0_mb {
+    margin-left: 0px;
+  }
+
+  .m_left10_mb {
+    margin-left: 10px;
+  }
+
+  .m_left5_mb {
+    margin-left: 5px;
+  }
+
+  .m_left15_mb {
+    margin-left: 15px;
+  }
+
+  .m_left20_mb {
+    margin-left: 20px;
+  }
+
+  .m_left40_mb {
+    margin-left: 40px;
+  }
+
+  .m_left55_mb {
+    margin-left: 55px;
+  }
+
+  .m_left80_mb {
+    margin-left: 80px;
+  }
+
+  .m_top0_mb {
+    margin-top: 0px;
+  }
+
+  .m_top10_mb {
+    margin-top: 10px;
+  }
+
+  .m_top15_mb {
+    margin-top: 15px;
+  }
+
+  .m_top20_mb {
+    margin-top: 20px;
+  }
+
+  .m_top25_mb {
+    margin-top: 25px;
+  }
+
+  .m_top30_mb {
+    margin-top: 30px;
+  }
+
+  .m_top35_mb {
+    margin-top: 35px;
+  }
+
+  .m_top40_mb {
+    margin-top: 40px;
+  }
+
+  .m_top45_mb {
+    margin-top: 45px;
+  }
+
+  .m_top50_mb {
+    margin-top: 50px;
+  }
+
+  .m_top55_mb {
+    margin-top: 55px;
+  }
+
+  .m_top60_mb {
+    margin-top: 60px;
+  }
+
+  .m_top80_mb {
+    margin-top: 80px;
+  }
+
+  .m_top85_mb {
+    margin-top: 85px;
+  }
+
+  .p_left25_mb {
+    padding-left: 25px;
+  }
+
+  .mleft_mb {
+    margin-left: -15px
+  }
+
+  .text_middle {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .text_mid {
+    margin-left: 40px;
+  }
+
+  .reverse {
+    flex-direction: column-reverse;
+  }
+
+  .m_right14_mb {
+    margin-right: -14px !important;
+  }
+
+  .border_left_none_mb {
+    border-left: none !important;
+  }
+
+  .m_bottom0_mb {
+    margin-bottom: 0px;
+  }
+
+  .m_bottom30_mb {
+    margin-bottom: 30px;
+  }
+
+  .m_bottom40_mb {
+    margin-bottom: 40px;
+  }
+
+  .m_bottom50_mb {
+    margin-bottom: 50px;
+  }
+
+  .m_bottom55_mb {
+    margin-bottom: 55px;
+  }
+
+  .m_bottom60_mb {
+    margin-bottom: 60px;
+  }
+
+  .m_bottom75_mb {
+    margin-bottom: 75px;
+  }
+
+  .m_bottom85_mb {
+    margin-bottom: 85px;
+  }
+
+  .m_bottom125_mb {
+    margin-bottom: 125px;
+  }
+
+  .m_bottom200_mb {
+    margin-bottom: 200px;
+  }
+
+  .b_none_mb {
+    border: none;
+  }
+
+  
+  .p_0_mb {
+    padding: 0;
+  }
+
+  .text_center_mb {
+    text-align: center;
+  }
+ 
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px) {
+  #content-mobtab {
+    display: block;
+  }
+  #content-desk {
+    display: none;
+  }
+  .hide_tab{
+    display: none;
+  }
+  .bwidth {
+    width: 41%;
+  }
+
+  .m_top0_tb {
+    margin-top: 0px;
+  }
+  .m_top55_tb{
+    margin-top: 55px;
+  }
+  .m_left150_tb {
+    margin-left: 150px;
+  }
+
+  .text-center_tb {
+    text-align: center;
+  }
+
+  
+
+  .m_top80_tb {
+    margin-top: 80px;
+  }
+
+ 
+
+  .mleft_mtb {
+    margin-left: -15px
+  }
+
+  .m_top10_tb {
+    margin-top: 10px;
+  }
+
+  .m_top15_tb {
+    margin-top: 15px;
+  }
+
+  .m_top25_tb {
+    margin-top: 25px;
+  }
+
+  .m_top35_tb {
+    margin-top: 35px;
+  }
+
+  .m_top40_tb {
+    margin-top: 40px;
+  }
+
+  .m_top45_tb {
+    margin-top: 45px;
+  }
+
+  .m_top48_tb {
+    margin-top: 48px;
+  }
+
+  .m_top50_tb {
+    margin-top: 50px;
+  }
+
+  .m_top60_tb {
+    margin-top: 60px;
+  }
+
+  .m_top150_tb {
+    margin-top: 150px;
+  }
+
+  .m_top130_tb {
+    margin-top: 130px;
+  }
+
+  .m_bottom25_tb {
+    margin-bottom: 25px;
+  }
+
+  .m_bottom40_tb {
+    margin-bottom: 40px;
+  }
+
+  .m_bottom45_tb {
+    margin-bottom: 45px;
+  }
+
+  .m_bottom50_tb {
+    margin-bottom: 50px;
+  }
+
+  .m_bottom55_tb {
+    margin-bottom: 55px;
+  }
+
+  .m_bottom60_tb {
+    margin-bottom: 60px;
+  }
+
+  .m_bottom70_tb {
+    margin-bottom: 70px;
+  }
+
+  .m_bottom85_tb {
+    margin-bottom: 85px;
+  }
+
+  .m_bottom150_tb {
+    margin-bottom: 150px;
+  }
+
+  .m_bottom170_tb {
+    margin-bottom: 170px;
+  }
+
+  .m_bottom210_tb {
+    margin-bottom: 210px;
+  }
+
+  .m_top95_tb {
+    margin-bottom: 95px;
+  }
+
+  .m_top100_tb {
+    margin-top: 100px;
+  }
+
+  .m_bottom120_tb {
+    margin-bottom: 120px !important;
+  }
+
+  .m_bottom130_tb {
+    margin-bottom: 130px;
+  }
+
+  .m_left30_tb {
+    margin-left: 30px;
+  }
+
+  .m_left50_tb {
+    margin-left: 50px;
+  }
+
+  .m_left0_tb {
+    margin-left: 0px;
+  }
+}
+  
+// Anythign only above Tablets
+@media (min-width: 1024px) and (max-width: 1366px) {
+ 
+}
+
+@media (min-width: 1600px) {
+ 
+}
